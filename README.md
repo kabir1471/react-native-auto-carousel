@@ -7,10 +7,9 @@ A React Native module that allows you to show a Carousel of photo/view with auto
 
 [Do you want to find out more?](#layouts-and-custom-interpolations)
 
-![react-native-auto-carousel default layout](https://imgur.com/1Hc5UeW)
+![react-native-snap-carousel default layout](https://i.imgur.com/vWa1u0M.gif)
 
 ---
-
 Install
 ```
 yarn add react-native-auto-carousel
