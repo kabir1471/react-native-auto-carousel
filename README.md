@@ -3,9 +3,7 @@ A React Native module that allows you to show a Carousel of photo/view with auto
 
 ## Showcase
 
-### :raised_hands: New feature: layouts
-
-[Do you want to find out more?](#layouts-and-custom-interpolations)
+### :raised_hands: layouts
 
 ![react-native-snap-carousel default layout](https://i.imgur.com/vWa1u0M.gif)
 
