@@ -1,6 +1,15 @@
 # React Native auto carousel
 A React Native module that allows you to show a Carousel of photo/view with autoPlay or swipe.
 
+## Showcase
+
+### :raised_hands: New feature: layouts
+
+[Do you want to find out more?](#layouts-and-custom-interpolations)
+
+![react-native-auto-carousel default layout](https://imgur.com/a/BXMUf41)
+
+---
 
 Install
 ```
