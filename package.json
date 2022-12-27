@@ -1,0 +1,33 @@
+{
+  "name": "react-native-auto-carousel",
+  "version": "1.0.3",
+  "description": "This is a package for react native to show a list of images ",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabir1471/react-native-auto-carousel.git"
+  },
+  "keywords": [
+    "react-native",
+    "image-carousel",
+    "react"
+  ],
+  "author": "Abdul Kabir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kabir1471/react-native-auto-carousel/issues"
+  },
+  "homepage": "https://github.com/kabir1471/react-native-auto-carousel#readme",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.1",
+    "@types/react-native": "^0.64.2",
+    "typescript": "4.1.5"
+  }
+}
