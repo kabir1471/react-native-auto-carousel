@@ -60,7 +60,7 @@ const Carousel = <T extends unknown>(props: CarouselProps<T>) => {
 
   const renderDots = (_: T, i: number) => {
 	return <View
-            key={useId()}
+            key={`dot-${i.toString()}`}
             style={{
 				...dotStyle,
 				margin: 8,
