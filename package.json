@@ -1,6 +1,6 @@
 {
   "name": "react-native-auto-carousel",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "This is a package for react native to show a list of images ",
   "main": "index.ts",
   "scripts": {
