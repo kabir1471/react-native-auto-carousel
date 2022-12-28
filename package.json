@@ -1,6 +1,6 @@
 {
   "name": "react-native-auto-carousel",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "This is a package for react native to show a list of images ",
   "main": "index.ts",
   "scripts": {
@@ -13,7 +13,15 @@
   "keywords": [
     "react-native",
     "image-carousel",
-    "react"
+    "react",
+    "native",
+    "carousel",
+    "slider",
+    "scrollview",
+    "images",
+    "android",
+    "ios",
+    "flatlist"
   ],
   "author": "Abdul Kabir",
   "license": "ISC",
