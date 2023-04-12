@@ -7,6 +7,9 @@ on:
    push:
       branches:
         - main
+    pull_request:
+      branches:
+        - main
 
 jobs:
   release:
@@ -21,6 +24,8 @@ jobs:
           node-version: 16
           registry-url: https://registry.npmjs.org/
       - name: publish
-        run: npm publish --access public
+        run: |
+          echo "$(jq '.publishConfig.registry = "https://registry.npmjs.org"' package.json)" > package.json
+          npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
