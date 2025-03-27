@@ -1,6 +1,6 @@
 {
   "name": "react-native-auto-carousel",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "A React Native package for displaying a carousel of images or custom views with an autoplay feature.",
   "main": "index.ts",
   "scripts": {
