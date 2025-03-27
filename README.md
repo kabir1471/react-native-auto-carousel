@@ -33,8 +33,16 @@ const DEVICE_WIDTH = Dimensions.get('window').width;
 const IMAGES = ['../images/1.png', '../images/2.png', '../images/3.png']
 const App = () => {
 return (
-<Carousel
+  <Carousel
       data={Images}
+      dotStyle={{
+        width: 10,
+        height: 10,
+        borderRadius: 5,
+        backgroundColor: '#FFFFFF'
+      }}
+      autoPlay={true}
+      autoPlayTime={500}
       renderItem={item => (
         <Image
           key={item}
